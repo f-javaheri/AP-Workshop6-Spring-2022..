@@ -3,10 +3,7 @@ public class Cheetah extends Mammal implements Hunter  {
     super(name, age, description, speed);
 }
 
-    /**
-     * show  information  about  hunts  of hunter animals
-     * @param prey
-     */
+   
     @Override
     public void hunt(Prey prey) {
         System.out.println("Cheeta Hunted " + prey.getName());
