@@ -6,9 +6,7 @@ public abstract class Bird extends Animal  {
         this.heightOfFly = heightOfFly;
     }
 
-    /**
-     * show animals  information
-     */
+   
     @Override
     public void show() {
         System.out.println("name : " +  getName() + ",  age : " +getAge() + ",  height of fly ,\"" + getDescription() + "\"");
