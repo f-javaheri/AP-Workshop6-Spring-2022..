@@ -1,2 +1,5 @@
-public interface Hunter {
+public interface Hunter
+{
 }
+
+
