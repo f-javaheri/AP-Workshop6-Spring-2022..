@@ -7,6 +7,10 @@ public class Eagle {
     @Override
     public void hunt(Prey p) {
         System.out.println("Eagle Hunted " + prey.getName());
-    }}
+    }@Override
+    public void show() {
+        System.out.println("name : " +  getName() + ",  age : " + getAge() + ", speed,\"" + getDescription() + "\"");
+    }
+}
 
 
