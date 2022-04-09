@@ -9,7 +9,7 @@ public class Eagle {
         System.out.println("Eagle Hunted " + prey.getName());
     }@Override
     public void show() {
-        System.out.println("name : " +  getName() + ",  age : " + getAge() + ", speed,\"" + getDescription() + "\"");
+        System.out.println("name : " +  getName() + ",  age : " + getAge() + ", speed,\"" + getDescription() + ",getHeightOfFly()\"");
     }
 }
 
