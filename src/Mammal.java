@@ -6,9 +6,7 @@ public abstract class Mammal extends Animal {
         this.speed = speed;
     }
 
-    /**
-     * show animals  information
-     */
+  
     @Override
     public void show() {
         System.out.println("name : " +  getName() + ",  age : " + getAge() + ", speed,\"" + getDescription() + "\"");
