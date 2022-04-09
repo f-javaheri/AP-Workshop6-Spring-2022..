@@ -1,2 +1,2 @@
-public class Girafe {
+public class Girafe extends Mammal implements Prey {
 }

@@ -1,2 +1,2 @@
-public class Eagle {
+public class Eagle extends Bird implements Hunter {
 }
