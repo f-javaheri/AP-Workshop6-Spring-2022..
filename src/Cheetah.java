@@ -5,7 +5,7 @@ public class Cheetah extends Mammal implements Hunter  {
 
    
     @Override
-    public void hunt(Prey prey) {
+    public void hunt(Prey p) {
         System.out.println("Cheeta Hunted " + prey.getName());
     }
 }
