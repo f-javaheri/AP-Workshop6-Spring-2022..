@@ -3,10 +3,7 @@ public class Eagle {
         super(name, age, description, heightOfFly);
     }
 
-    /**
-     * show  information  about  hunts  of hunter animals
-     * @param prey
-     */
+ 
     @Override
     public void hunt(Prey prey) {
         System.out.println("Eagle Hunted " + prey.getName());
