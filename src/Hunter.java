@@ -1,6 +1,6 @@
 public interface Hunter
 {
-    void hunt(Prey);
+    public void hunt(Prey p);
 }
 
 
