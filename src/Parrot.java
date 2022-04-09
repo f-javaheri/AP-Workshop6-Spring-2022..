@@ -4,7 +4,7 @@ public class Parrot extends Bird implements Prey {
 }
  @Override
     public void show() {
-        System.out.println("name : " +  getName() + ",  age : " +getAge() + ",  height of fly ,\"" + getDescription() + "\"");
+        System.out.println("name : " +  getName() + ",  age : " +getAge() + ",  height of fly ,\"" + getDescription() + ",getHeightOfFly()\"");
     }
     @Override
     Public String getName(){return name;}
