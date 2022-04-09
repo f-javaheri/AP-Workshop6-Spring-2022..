@@ -5,7 +5,7 @@ public class Eagle {
 
  
     @Override
-    public void hunt(Prey prey) {
+    public void hunt(Prey p) {
         System.out.println("Eagle Hunted " + prey.getName());
     }}
 
